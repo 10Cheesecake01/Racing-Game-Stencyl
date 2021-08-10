@@ -1,0 +1,15 @@
+#
+#Wed May 27 10:59:33 GST 2020
+shadow.x=1
+shadow.y=1
+color=\#000000
+shadow.blur=1
+stroke.size=0
+shadow.color=\#000000
+alphabet=
+gradient.offset=0
+size=10
+antialias=true
+style=plain
+family=Kenney Space.ttf
+chars=all

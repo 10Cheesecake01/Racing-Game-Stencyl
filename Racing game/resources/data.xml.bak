@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="5" fixedrot="false" fric="0.2" gid="3" id="10" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Button" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="11" static="false">
+        <snippets>
+            <s enabled="true" id="9">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val=""/>
+                <prop id="2" list="0" val=""/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="11" name="Button" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="64" originy="16" sync="false" version="2" width="128">
+            <poly data="4,0,0,128,0,128,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="18" id="18" name="Button Font" offsets="0|0|0|,5|0|5,10|0|10,19|0|19,32|0|32,45|0|45,58|0|58,71|0|71,76|0|76,83|0|83,90|0|90,99|0|99,112|0|112,117|0|117,130|0|130,135|0|135,144|0|144,157|0|157,164|0|164,177|0|177,190|0|190,203|0|203,216|0|216,229|0|229,242|0|242,255|0|255,268|0|268,273|0|273,278|0|278,287|0|287,300|0|300,309|0|309,322|0|322,335|0|335,348|0|348,361|0|361,374|0|374,387|0|387,400|0|400,413|0|413,426|0|426,439|0|439,444|0|444,457|0|457,470|0|470,483|0|483,500|0|500,513|0|513,526|0|526,539|0|539,552|0|552,565|0|565,578|0|578,591|0|591,604|0|604,617|0|617,634|0|634,647|0|647,660|0|660,673|0|673,680|0|680,689|0|689,696|0|696,709|0|709,722|0|722,727|0|727,740|0|740,753|0|753,766|0|766,779|0|779,792|0|792,805|0|805,818|0|818,831|0|831,836|0|836,849|0|849,862|0|862,875|0|875,892|0|892,905|0|905,918|0|918,931|0|931,944|0|944,957|0|957,970|0|970,983|0|983,996|0|996,1009|0|1009,1026|0|1026,1039|0|1039,1052|0|1052,1065|0|1065,1073|0|1073,1078|0|1078,1086|0|1086" oid="-1" prerendered="false" readable="false" rowHeight="18" shared="false"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="0" fixedrot="true" fric="0.2" gid="3" id="0" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="CarBlack" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1" static="false">
+        <snippets>
+            <s enabled="true" id="16">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="0"/>
+                <prop id="2" list="0" val="0"/>
+                <prop id="3" list="0" val="No Control"/>
+                <prop id="4" list="0" val="No Control"/>
+                <prop id="5" list="0" val="No Control"/>
+                <prop id="6" list="0" val="No Control"/>
+            </s>
+            <s enabled="true" id="18">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="1" val=""/>
+                <prop id="2" list="0" val=""/>
+                <prop id="3" list="0" val="false"/>
+                <prop id="4" list="0" val="0"/>
+                <prop id="5" list="0" val="0"/>
+                <prop id="6" list="0" val="0"/>
+            </s>
+            <s enabled="true" id="12">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="5"/>
+                <prop id="2" list="0" val="5"/>
+                <prop id="3" list="0" val="5"/>
+                <prop id="4" list="0" val="5"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="1" name="CarBlack" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="8" originy="16" sync="false" version="2" width="17">
+            <poly data="4,0,0,17,0,17,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="1" fixedrot="true" fric="0.2" gid="3" id="2" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="CarBlue" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="3" static="false">
+        <snippets>
+            <s enabled="true" id="16">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="0"/>
+                <prop id="2" list="0" val="0.0"/>
+                <prop id="3" list="0" val="No Control"/>
+                <prop id="4" list="0" val="No Control"/>
+                <prop id="5" list="0" val="No Control"/>
+                <prop id="6" list="0" val="No Control"/>
+            </s>
+            <s enabled="true" id="18">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="1" val=""/>
+                <prop id="2" list="0" val=""/>
+                <prop id="3" list="0" val="false"/>
+                <prop id="4" list="0" val="0"/>
+                <prop id="5" list="0" val="0"/>
+                <prop id="6" list="0" val="0"/>
+            </s>
+            <s enabled="true" id="12">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="4"/>
+                <prop id="2" list="0" val="4"/>
+                <prop id="3" list="0" val="4"/>
+                <prop id="4" list="0" val="4"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="3" name="CarBlue" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="8" originy="16" sync="false" version="2" width="17">
+            <poly data="4,0,0,17,0,17,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="2" fixedrot="true" fric="0.2" gid="3" id="4" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="CarGreen" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="5" static="false">
+        <snippets>
+            <s enabled="true" id="16">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="0"/>
+                <prop id="2" list="0" val="0.0"/>
+                <prop id="3" list="0" val="No Control"/>
+                <prop id="4" list="0" val="No Control"/>
+                <prop id="5" list="0" val="No Control"/>
+                <prop id="6" list="0" val="No Control"/>
+            </s>
+            <s enabled="true" id="18">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="1" val=""/>
+                <prop id="2" list="0" val=""/>
+                <prop id="3" list="0" val="false"/>
+                <prop id="4" list="0" val="0"/>
+                <prop id="5" list="0" val="0"/>
+                <prop id="6" list="0" val="0"/>
+            </s>
+            <s enabled="true" id="12">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="3"/>
+                <prop id="2" list="0" val="3"/>
+                <prop id="3" list="0" val="3"/>
+                <prop id="4" list="0" val="3"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="5" name="CarGreen" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="8" originy="16" sync="false" version="2" width="17">
+            <poly data="4,0,0,17,0,17,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="3" fixedrot="true" fric="0.2" gid="3" id="6" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="CarRed" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="7" static="false">
+        <snippets>
+            <s enabled="true" id="16">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="0"/>
+                <prop id="2" list="0" val="0.0"/>
+                <prop id="3" list="0" val="No Control"/>
+                <prop id="4" list="0" val="No Control"/>
+                <prop id="5" list="0" val="No Control"/>
+                <prop id="6" list="0" val="No Control"/>
+            </s>
+            <s enabled="true" id="18">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="1" val=""/>
+                <prop id="2" list="0" val=""/>
+                <prop id="3" list="0" val="false"/>
+                <prop id="4" list="0" val="0"/>
+                <prop id="5" list="0" val="0"/>
+                <prop id="6" list="0" val="0"/>
+            </s>
+            <s enabled="true" id="12">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="2"/>
+                <prop id="2" list="0" val="2"/>
+                <prop id="3" list="0" val="2"/>
+                <prop id="4" list="0" val="2"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="7" name="CarRed" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="8" originy="16" sync="false" version="2" width="17">
+            <poly data="4,0,0,17,0,17,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="4" fixedrot="true" fric="0.2" gid="3" id="8" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="CarYellow" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="9" static="false">
+        <snippets>
+            <s enabled="true" id="16">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="0"/>
+                <prop id="2" list="0" val="0.0"/>
+                <prop id="3" list="0" val="No Control"/>
+                <prop id="4" list="0" val="No Control"/>
+                <prop id="5" list="0" val="No Control"/>
+                <prop id="6" list="0" val="No Control"/>
+            </s>
+            <s enabled="true" id="18">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="1" val=""/>
+                <prop id="2" list="0" val=""/>
+                <prop id="3" list="0" val="false"/>
+                <prop id="4" list="0" val="0"/>
+                <prop id="5" list="0" val="0"/>
+                <prop id="6" list="0" val="0"/>
+            </s>
+            <s enabled="true" id="12">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="1"/>
+                <prop id="2" list="0" val="1"/>
+                <prop id="3" list="0" val="1"/>
+                <prop id="4" list="0" val="1"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="9" name="CarYellow" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="8" originy="16" sync="false" version="2" width="17">
+            <poly data="4,0,0,17,0,17,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="27" id="15" name="Font" offsets="0|0|0|,7|0|7,12|0|12,23|0|23,40|0|40,57|0|57,74|0|74,91|0|91,96|0|96,104|0|104,112|0|112,123|0|123,140|0|140,145|0|145,162|0|162,167|0|167,178|0|178,195|0|195,203|0|203,220|0|220,237|0|237,254|0|254,271|0|271,288|0|288,305|0|305,322|0|322,339|0|339,344|0|344,349|0|349,360|0|360,377|0|377,388|0|388,405|0|405,422|0|422,439|0|439,456|0|456,473|0|473,490|0|490,507|0|507,524|0|524,541|0|541,558|0|558,563|0|563,580|0|580,597|0|597,614|0|614,638|0|638,655|0|655,672|0|672,689|0|689,706|0|706,723|0|723,740|0|740,757|0|757,774|0|774,791|0|791,815|0|815,832|0|832,849|0|849,866|0|866,874|0|874,885|0|885,893|0|893,910|0|910,927|0|927,932|0|932,949|0|949,966|0|966,983|0|983,1000|0|1000,1017|0|1017,1034|0|1034,1051|0|1051,1068|0|1068,1073|0|1073,1090|0|1090,1107|0|1107,1124|0|1124,1148|0|1148,1165|0|1165,1182|0|1182,1199|0|1199,1216|0|1216,1233|0|1233,1250|0|1250,1267|0|1267,1284|0|1284,1301|0|1301,1325|0|1325,1342|0|1342,1359|0|1359,1376|0|1376,1386|0|1386,1391|0|1391,1400|0|1400" oid="-1" prerendered="false" readable="false" rowHeight="27" shared="false"/>
+    <custom-block blocktag="custom-19" blocktype="NORMAL" code="(.say(&quot;Enemy AI&quot;, &quot;_customBlock_NormalizeSteeringAngle&quot;, []) : Float)" desc="" global="false" gui="normalize steering angle %1" id="19" message="NormalizeSteeringAngle" name="NormalizeSteeringAngle" oid="-1" return="number" shared="false" snippetID="18">
+        <blank name="@block.thisactor" order="0" type="actor"/>
+        <blank name="RawAngle" order="1" type="number"/>
+    </custom-block>
+    <tileset across="3" atlasID="0" desc="" down="9" id="17" name="tilesets" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="7" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1" id="1" order="-1"/>
+        <tile collision="8" data="" durations="100" frames="2" id="2" order="-1"/>
+        <tile collision="3" data="" durations="100" frames="3" id="3" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="4" id="4" order="-1"/>
+        <tile collision="4" data="" durations="100" frames="5" id="5" order="-1"/>
+        <tile collision="5" data="" durations="100" frames="6" id="6" order="-1"/>
+        <tile collision="2" data="" durations="100" frames="7" id="7" order="-1"/>
+        <tile collision="6" data="" durations="100" frames="8" id="8" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="9" id="9" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="10" id="10" order="-1"/>
+        <tile collision="2" data="" durations="100" frames="11" id="11" order="-1"/>
+        <tile collision="3" data="" durations="100" frames="12" id="12" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="13" id="13" order="-1"/>
+        <tile collision="4" data="" durations="100" frames="14" id="14" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="15" id="15" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="16" id="16" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="17" id="17" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="18" id="18" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="19" id="19" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="20" id="20" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="21" id="21" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="22" id="22" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="23" id="23" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="24" id="24" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="25" id="25" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="26" id="26" order="-1"/>
+    </tileset>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="6" fixedrot="false" fric="0.2" gid="3" id="12" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="WayPoint" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="13" static="false">
+        <snippets>
+            <s enabled="true" id="17">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="0"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="13" name="WayPoint" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="16" id="0" loop="true" name="Animation 0" numframes="1" originx="8" originy="8" sync="false" version="2" width="16"/>
+    </sprite>
+</pack>
